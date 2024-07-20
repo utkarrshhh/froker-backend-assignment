@@ -1,12 +1,10 @@
 const mongoose = require("mongoose");
-const { type } = require("os");
 
 const userSchema = new mongoose.Schema({
   phoneNumber: {
-    type: String,
+    type: Number,
     required: true,
-    unique: true,
-    minlength: [10, "Phone Number should be atleast of 10 characters"],
+    minlength: [10, "Phone Number should be at least of 10 characters"],
   },
   email: {
     type: String,
