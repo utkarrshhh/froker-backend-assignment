@@ -1,4 +1,20 @@
 
+# Backend Development
+
+Below are the results of the api route hits on different apis such as /user , /login , /signup, /borrow
+
+
+## Run this project
+
+simply clone this project and run
+
+```bash
+  npm install 
+  nodemon server.js
+```
+
+
+
 # Screenshots
 ## /signup Route success
 hitting the api /signup and giving all the details as follows results in the success and the following is the respose we get at the frontend
