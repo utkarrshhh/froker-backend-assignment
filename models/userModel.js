@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-
+// creating user model that defines the schema for the user and some validation as well
 const userSchema = new mongoose.Schema({
   phoneNumber: {
     type: Number,
